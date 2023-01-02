@@ -1,5 +1,6 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
+import { Link } from 'react-scroll';
 
 function Home() {
   return (
@@ -33,18 +34,31 @@ function Home() {
             I build Custom Web Solution, website that works and look good.
           </p>
           <div className='mt-5'>
-            <button
-              type='button'
-              className='text-white text-lg font-medium p-5 bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800  rounded-none  px-5 py-2.5 text-center mr-2 mb-2'
+            <Link
+              activeClass='active'
+              to='contact'
+              smooth={true}
+              duration={1000}
+              spy={true}
             >
-              Hire Me
-            </button>
-            <button
-              type='button'
-              className='text-white text-lg font-semibold p-5 bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800  rounded-none  px-5 py-2.5 text-center mr-2 mb-2'
+              <button
+                type='button'
+                className='text-white text-lg font-medium p-5 bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800  rounded-none  px-5 py-2.5 text-center mr-2 mb-2'
+              >
+                Hire Me
+              </button>
+            </Link>
+            <a
+              href='https://docs.google.com/document/d/1IRMEFBEoG3PE82YitvA81fSlp4nFvG6j1Rt6DYeYQEI/edit?usp=sharing'
+              download
             >
-              CV
-            </button>
+              <button
+                type='button'
+                className='text-white text-lg font-semibold p-5 bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800  rounded-none  px-5 py-2.5 text-center mr-2 mb-2'
+              >
+                CV
+              </button>
+            </a>
           </div>
         </div>
       </div>
