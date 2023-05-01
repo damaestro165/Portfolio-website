@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import CryptoWorld from '../assets/Crpytoworld.png';
 import Snap from '../assets/snap.jpeg';
-import Musica from '../assets/Music.png';
+import Funiro from '../assets/funiroo.png';
 import VirtualCard from '../assets/virtualcard.png';
 import Dashboard from '../assets/dashboard.jpeg';
 import ImageSearch from '../assets/imageSearch.png';
@@ -11,11 +11,12 @@ function Project() {
   const projects = [
     {
       id: 1,
-      image: Musica,
-      liveUrl: '',
-      github: 'https://github.com/damaestro165/Musica',
-      title: 'Musica',
-      description: 'It is a music player made using React, Redux Toolkit Query',
+      image: Funiro,
+      liveUrl: 'https://funiro-three.vercel.app/',
+      github: 'https://github.com/damaestro165/funiro',
+      title: 'Funiro',
+      description:
+        'It is an Ecommerce store made using React, Redux Toolkit Query and Chakra UI',
     },
     {
       id: 2,
@@ -59,14 +60,14 @@ function Project() {
     },
   ];
   return (
-    <div name="projects" className="w-full  md:h-screen">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full ">
-        <div className="pb-10">
-          <p className="text-2xl sm:mt-10 font-bold inline border-b-4 border-green-800">
+    <div name='projects' className='w-full  md:h-screen'>
+      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full '>
+        <div className='pb-10'>
+          <p className='text-2xl sm:mt-10 font-bold inline border-b-4 border-green-800'>
             Some Things I've Built
           </p>
         </div>
-        <div className="grid md:grid-cols-3 gap-4">
+        <div className='grid md:grid-cols-3 gap-4'>
           {projects.map((item) => (
             <div key={item.id}>
               <ProjectCard
