@@ -6,6 +6,7 @@ import Funiro from '../assets/funiroo.png';
 import VirtualCard from '../assets/virtualcard.png';
 import Dashboard from '../assets/dashboard.jpeg';
 import ImageSearch from '../assets/imageSearch.png';
+import Metabnb from '../assets/Metabnb.png';
 
 function Project() {
   const projects = [
@@ -18,14 +19,14 @@ function Project() {
       description:
         'It is an Ecommerce store made using React, Redux Toolkit Query and Chakra UI',
     },
-    {
-      id: 2,
-      image: CryptoWorld,
-      liveUrl: 'https://courageous-mousse-737172.netlify.app/',
-      github: 'https://github.com/damaestro165/cryptoworld',
-      title: 'CryptoWorld',
-      description: '',
-    },
+    // {
+    //   id: 2,
+    //   image: CryptoWorld,
+    //   liveUrl: 'https://courageous-mousse-737172.netlify.app/',
+    //   github: 'https://github.com/damaestro165/cryptoworld',
+    //   title: 'CryptoWorld',
+    //   description: '',
+    // },
     {
       id: 3,
       image: Snap,
@@ -57,6 +58,14 @@ function Project() {
       github: 'https://github.com/damaestro165/Image-Search',
       title: 'Image Search App',
       description: '',
+    },
+    {
+      id: 7,
+      image: Metabnb,
+      liveUrl: 'https://metabnb-hng-task3.netlify.app/',
+      github: '',
+      title: 'MetaBNB',
+      description: 'A metaverse landing page',
     },
   ];
   return (
