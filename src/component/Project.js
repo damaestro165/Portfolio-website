@@ -33,7 +33,7 @@ function Project() {
       liveUrl: 'https://dynamic-scone-042a9c.netlify.app/',
       github: 'https://github.com/damaestro165/frontend-navigation-challenge',
       title: 'Snap Home Page',
-      description: '',
+      description: 'A landing Page',
     },
     {
       id: 4,
