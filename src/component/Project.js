@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import CryptoWorld from '../assets/Crpytoworld.png';
+
 import Snap from '../assets/snap.jpeg';
 import Funiro from '../assets/funiroo.png';
 import VirtualCard from '../assets/virtualcard.png';

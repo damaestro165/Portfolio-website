@@ -15,7 +15,7 @@ function Header() {
   const handleClick = () => Setnav(!nav);
   return (
     <div className=' fixed w-full h-[80px] flex justify-between items-center px-4 bg-slate-100'>
-      <div className='font-bold'>Yomi.dev</div>
+      <div className='font-bold text-2xl ml-5'>Yomi.dev</div>
 
       <ul className='nav-bar  hidden md:flex '>
         <li className='nav-item'>
